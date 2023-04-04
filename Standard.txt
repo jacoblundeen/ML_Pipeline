@@ -1,0 +1,514 @@
+The normalized test data:
+            X         Y     month  ...      wind     rain      area
+103 -1.190244 -0.304639  0.646178  ...  0.269583 -0.08996 -0.250087
+104 -1.190244 -0.304639 -3.181740  ... -0.497298 -0.08996 -0.250087
+105 -0.328164  0.587711 -2.224760  ...  1.255574 -0.08996 -0.250087
+106 -0.328164  0.587711 -2.224760  ... -0.497298 -0.08996 -0.250087
+107 -0.328164  0.587711  0.167688  ... -0.497298 -0.08996 -0.250087
+..        ...       ...       ...  ...       ...      ...       ...
+181  1.395997  1.480060  1.124668  ... -0.004303 -0.08996 -0.181021
+182  0.102877 -0.304639 -2.703250  ... -0.990293 -0.08996 -0.169086
+183  0.964957 -0.304639  1.124668  ...  0.269583 -0.08996 -0.163373
+184  1.395997  1.480060  0.167688  ...  0.488692 -0.08996 -0.161723
+185 -1.190244  0.587711  0.646178  ... -0.497298 -0.08996 -0.160707
+
+[83 rows x 13 columns]
+The normalized train data:
+            X         Y     month  ...      wind     rain      area
+186  1.395997  1.480060 -2.224760  ...  0.981688 -0.08996 -0.158803
+187 -1.621284  0.587711  0.646178  ... -0.990293 -0.08996 -0.157406
+188  0.533917 -0.304639 -2.224760  ... -1.702397 -0.08996 -0.156137
+189  0.964957 -0.304639 -2.224760  ... -0.004303 -0.08996 -0.145472
+190  0.533917  0.587711 -2.224760  ... -0.004303 -0.08996 -0.144583
+..        ...       ...       ...  ...       ...      ...       ...
+512 -0.328164 -1.196989  0.167688  ... -0.716407 -0.08996 -0.168325
+513 -1.190244 -0.304639  0.167688  ...  0.981688 -0.08996  0.439180
+514  0.964957 -0.304639  0.167688  ...  1.474683 -0.08996 -0.108400
+515 -1.621284 -0.304639  0.167688  ... -0.004303 -0.08996 -0.250087
+516  0.533917 -1.196989  1.603157  ...  0.269583 -0.08996 -0.250087
+
+[331 rows x 13 columns]
+The vendor_adviserfeature was dropped for having a STD of 0.
+The vendor_amdahlfeature was dropped for having a STD of 0.
+The vendor_apollofeature was dropped for having a STD of 0.
+The vendor_basffeature was dropped for having a STD of 0.
+The vendor_btifeature was dropped for having a STD of 0.
+The vendor_burroughsfeature was dropped for having a STD of 0.
+The vendor_c.r.dfeature was dropped for having a STD of 0.
+The vendor_cambexfeature was dropped for having a STD of 0.
+The vendor_cdcfeature was dropped for having a STD of 0.
+The vendor_decfeature was dropped for having a STD of 0.
+The vendor_dgfeature was dropped for having a STD of 0.
+The vendor_formationfeature was dropped for having a STD of 0.
+The vendor_four-phasefeature was dropped for having a STD of 0.
+The vendor_gouldfeature was dropped for having a STD of 0.
+The vendor_hpfeature was dropped for having a STD of 0.
+The model_100feature was dropped for having a STD of 0.
+The model_1636-1feature was dropped for having a STD of 0.
+The model_1636-10feature was dropped for having a STD of 0.
+The model_1641-1feature was dropped for having a STD of 0.
+The model_1641-11feature was dropped for having a STD of 0.
+The model_1651-1feature was dropped for having a STD of 0.
+The model_2000/260feature was dropped for having a STD of 0.
+The model_300feature was dropped for having a STD of 0.
+The model_3000/30feature was dropped for having a STD of 0.
+The model_3000/40feature was dropped for having a STD of 0.
+The model_3000/44feature was dropped for having a STD of 0.
+The model_3000/48feature was dropped for having a STD of 0.
+The model_3000/64feature was dropped for having a STD of 0.
+The model_3000/88feature was dropped for having a STD of 0.
+The model_3000/iiifeature was dropped for having a STD of 0.
+The model_32/60feature was dropped for having a STD of 0.
+The model_470v/7feature was dropped for having a STD of 0.
+The model_470v/7afeature was dropped for having a STD of 0.
+The model_470v/7bfeature was dropped for having a STD of 0.
+The model_470v/7cfeature was dropped for having a STD of 0.
+The model_470v/bfeature was dropped for having a STD of 0.
+The model_5000feature was dropped for having a STD of 0.
+The model_580-5840feature was dropped for having a STD of 0.
+The model_580-5850feature was dropped for having a STD of 0.
+The model_580-5860feature was dropped for having a STD of 0.
+The model_580-5880feature was dropped for having a STD of 0.
+The model_68/10-80feature was dropped for having a STD of 0.
+The model_7/65feature was dropped for having a STD of 0.
+The model_7/68feature was dropped for having a STD of 0.
+The model_8000feature was dropped for having a STD of 0.
+The model_b1955feature was dropped for having a STD of 0.
+The model_b2900feature was dropped for having a STD of 0.
+The model_b2925feature was dropped for having a STD of 0.
+The model_b4955feature was dropped for having a STD of 0.
+The model_b5900feature was dropped for having a STD of 0.
+The model_b5920feature was dropped for having a STD of 0.
+The model_b6900feature was dropped for having a STD of 0.
+The model_b6925feature was dropped for having a STD of 0.
+The model_concept:32/8705feature was dropped for having a STD of 0.
+The model_concept:32/8750feature was dropped for having a STD of 0.
+The model_concept:32/8780feature was dropped for having a STD of 0.
+The model_cyber:170/750feature was dropped for having a STD of 0.
+The model_cyber:170/760feature was dropped for having a STD of 0.
+The model_cyber:170/815feature was dropped for having a STD of 0.
+The model_cyber:170/825feature was dropped for having a STD of 0.
+The model_cyber:170/835feature was dropped for having a STD of 0.
+The model_cyber:170/845feature was dropped for having a STD of 0.
+The model_decsys:10:1091feature was dropped for having a STD of 0.
+The model_decsys:20:2060feature was dropped for having a STD of 0.
+The model_dn320feature was dropped for having a STD of 0.
+The model_dn420feature was dropped for having a STD of 0.
+The model_eclipse:c/350feature was dropped for having a STD of 0.
+The model_eclipse:m/600feature was dropped for having a STD of 0.
+The model_eclipse:mv/10000feature was dropped for having a STD of 0.
+The model_eclipse:mv/4000feature was dropped for having a STD of 0.
+The model_eclipse:mv/6000feature was dropped for having a STD of 0.
+The model_eclipse:mv/8000feature was dropped for having a STD of 0.
+The model_eclipse:mv/8000-iifeature was dropped for having a STD of 0.
+The model_f4000/100feature was dropped for having a STD of 0.
+The model_f4000/200feature was dropped for having a STD of 0.
+The model_f4000/200apfeature was dropped for having a STD of 0.
+The model_f4000/300feature was dropped for having a STD of 0.
+The model_f4000/300apfeature was dropped for having a STD of 0.
+The model_microvax-1feature was dropped for having a STD of 0.
+The model_omega:480-ifeature was dropped for having a STD of 0.
+The model_omega:480-iifeature was dropped for having a STD of 0.
+The model_omega:480-iiifeature was dropped for having a STD of 0.
+The model_universe:2203tfeature was dropped for having a STD of 0.
+The model_universe:68feature was dropped for having a STD of 0.
+The model_universe:68/05feature was dropped for having a STD of 0.
+The model_universe:68/137feature was dropped for having a STD of 0.
+The model_universe:68/37feature was dropped for having a STD of 0.
+The model_vax:11/730feature was dropped for having a STD of 0.
+The model_vax:11/750feature was dropped for having a STD of 0.
+The model_vax:11/780feature was dropped for having a STD of 0.The normalized test data:
+        myct      mmin      mmax  ...  model_v8670  model_vs-100  model_vs-90
+41 -0.547834 -0.292966  0.318243  ...    -0.086387     -0.086387    -0.086387
+42 -0.547834 -0.292966  0.318243  ...    -0.086387     -0.086387    -0.086387
+43 -0.547834 -0.292966  0.318243  ...    -0.086387     -0.086387    -0.086387
+44 -0.245031 -0.604543 -0.029365  ...    -0.086387     -0.086387    -0.086387
+45 -0.245031 -0.604543 -0.376973  ...    -0.086387     -0.086387    -0.086387
+46  2.224824 -0.756592 -1.027695  ...    -0.086387     -0.086387    -0.086387
+47  2.224824 -0.604543 -0.637679  ...    -0.086387     -0.086387    -0.086387
+48  0.437189 -0.756592 -0.376973  ...    -0.086387     -0.086387    -0.086387
+49 -0.000599 -0.756592 -0.376973  ...    -0.086387     -0.086387    -0.086387
+50  1.823518 -0.796474 -0.376973  ...    -0.086387     -0.086387    -0.086387
+51  1.823518 -0.836356 -0.898385  ...    -0.086387     -0.086387    -0.086387
+52 -0.219493 -0.604543  0.318243  ...    -0.086387     -0.086387    -0.086387
+53 -0.000599 -0.604543 -0.376973  ...    -0.086387     -0.086387    -0.086387
+54 -0.328940 -0.604543 -0.724581  ...    -0.086387     -0.086387    -0.086387
+55 -0.328940 -0.604543 -0.029365  ...    -0.086387     -0.086387    -0.086387
+56  0.072366 -0.604543 -0.376973  ...    -0.086387     -0.086387    -0.086387
+57  2.188341 -0.836356 -0.376973  ...    -0.086387     -0.086387    -0.086387
+58  2.188341 -0.836356 -0.376973  ...    -0.086387     -0.086387    -0.086387
+59  2.188341 -0.836356 -0.376973  ...    -0.086387     -0.086387    -0.086387
+60  2.188341 -0.836356 -0.376973  ...    -0.086387     -0.086387    -0.086387
+61  2.188341 -0.836356 -0.376973  ...    -0.086387     -0.086387    -0.086387
+62 -0.274217 -0.756592 -0.985287  ...    -0.086387     -0.086387    -0.086387
+63 -0.456628 -0.292966 -0.376973  ...    -0.086387     -0.086387    -0.086387
+64 -0.456628 -0.292966  0.318243  ...    -0.086387     -0.086387    -0.086387
+65 -0.456628 -0.292966  0.318243  ...    -0.086387     -0.086387    -0.086387
+66 -0.401905 -0.836356 -0.985287  ...    -0.086387     -0.086387    -0.086387
+67 -0.347181 -0.836356 -0.898385  ...    -0.086387     -0.086387    -0.086387
+68 -0.347181 -0.604543 -0.724581  ...    -0.086387     -0.086387    -0.086387
+69 -0.347181 -0.292966 -0.724581  ...    -0.086387     -0.086387    -0.086387
+70 -0.456628 -0.292966 -0.376973  ...    -0.086387     -0.086387    -0.086387
+71 -0.456628  0.018611 -0.376973  ...    -0.086387     -0.086387    -0.086387
+72 -0.091805 -0.836356 -0.898385  ...    -0.086387     -0.086387    -0.086387
+73  0.364224 -0.676828 -0.811483  ...    -0.086387     -0.086387    -0.086387
+74  0.364224 -0.676828 -0.811483  ...    -0.086387     -0.086387    -0.086387
+
+[34 rows x 157 columns]
+The normalized train data:
+         myct      mmin      mmax  ...  model_v8670  model_vs-100  model_vs-90
+75   0.364224 -0.676828 -0.029365  ...    -0.086387     -0.086387    -0.086387
+76   0.364224 -0.676828 -0.681130  ...    -0.086387     -0.086387    -0.086387
+77   0.364224 -0.796474 -0.029365  ...    -0.086387     -0.086387    -0.086387
+78   0.364224 -0.856297 -1.005448  ...    -0.086387     -0.086387    -0.086387
+79  -0.073564 -0.676828 -0.029365  ...    -0.086387     -0.086387    -0.086387
+..        ...       ...       ...  ...          ...           ...          ...
+204 -0.277865 -0.604543 -0.376973  ...    -0.086387     -0.086387    -0.086387
+205 -0.372719 -0.604543 -0.376973  ...    -0.086387     -0.086387    -0.086387
+206 -0.274217 -0.292966 -0.376973  ...    -0.086387     -0.086387    -0.086387
+207  1.020907 -0.756592 -0.376973  ...    -0.086387     11.489450    -0.086387
+208  1.020907 -0.604543 -0.724581  ...    -0.086387     -0.086387    11.489450
+
+[134 rows x 157 columns]
+The vendor_adviserfeature was dropped for having a STD of 0.
+The vendor_amdahlfeature was dropped for having a STD of 0.
+The vendor_apollofeature was dropped for having a STD of 0.
+The vendor_basffeature was dropped for having a STD of 0.
+The vendor_btifeature was dropped for having a STD of 0.
+The vendor_burroughsfeature was dropped for having a STD of 0.
+The vendor_c.r.dfeature was dropped for having a STD of 0.
+The vendor_cdcfeature was dropped for having a STD of 0.
+The vendor_honeywellfeature was dropped for having a STD of 0.
+The model_1636-1feature was dropped for having a STD of 0.
+The model_1636-10feature was dropped for having a STD of 0.
+The model_3033:sfeature was dropped for having a STD of 0.
+The model_3033:ufeature was dropped for having a STD of 0.
+The model_3081feature was dropped for having a STD of 0.
+The model_3081:dfeature was dropped for having a STD of 0.
+The model_3083:bfeature was dropped for having a STD of 0.
+The model_3083:efeature was dropped for having a STD of 0.
+The model_32/60feature was dropped for having a STD of 0.
+The model_370/125-2feature was dropped for having a STD of 0.
+The model_370/148feature was dropped for having a STD of 0.
+The model_370/158-3feature was dropped for having a STD of 0.
+The model_38/3feature was dropped for having a STD of 0.
+The model_38/4feature was dropped for having a STD of 0.
+The model_38/5feature was dropped for having a STD of 0.
+The model_38/7feature was dropped for having a STD of 0.
+The model_38/8feature was dropped for having a STD of 0.
+The model_4321feature was dropped for having a STD of 0.
+The model_4331-1feature was dropped for having a STD of 0.
+The model_470v/7feature was dropped for having a STD of 0.
+The model_470v/7afeature was dropped for having a STD of 0.
+The model_470v/7bfeature was dropped for having a STD of 0.
+The model_470v/7cfeature was dropped for having a STD of 0.
+The model_470v/bfeature was dropped for having a STD of 0.
+The model_500feature was dropped for having a STD of 0.
+The model_5000feature was dropped for having a STD of 0.
+The model_580-5840feature was dropped for having a STD of 0.
+The model_580-5850feature was dropped for having a STD of 0.
+The model_580-5860feature was dropped for having a STD of 0.
+The model_580-5880feature was dropped for having a STD of 0.
+The model_600feature was dropped for having a STD of 0.
+The model_68/10-80feature was dropped for having a STD of 0.
+The model_7/65feature was dropped for having a STD of 0.
+The model_7/68feature was dropped for having a STD of 0.
+The model_700feature was dropped for having a STD of 0.
+The model_80feature was dropped for having a STD of 0.
+The model_800feature was dropped for having a STD of 0.
+The model_8000feature was dropped for having a STD of 0.
+The model_b1955feature was dropped for having a STD of 0.
+The model_b2900feature was dropped for having a STD of 0.
+The model_b2925feature was dropped for having a STD of 0.
+The model_b4955feature was dropped for having a STD of 0.
+The model_b5900feature was dropped for having a STD of 0.
+The model_b5920feature was dropped for having a STD of 0.
+The model_b6900feature was dropped for having a STD of 0.
+The model_b6925feature was dropped for having a STD of 0.
+The model_cyber:170/750feature was dropped for having a STD of 0.
+The model_cyber:170/760feature was dropped for having a STD of 0.
+The model_cyber:170/815feature was dropped for having a STD of 0.
+The model_cyber:170/825feature was dropped for having a STD of 0.
+The model_cyber:170/835feature was dropped for having a STD of 0.
+The model_cyber:170/845feature was dropped for having a STD of 0.
+The model_dn320feature was dropped for having a STD of 0.
+The model_dn420feature was dropped for having a STD of 0.
+The model_dps:6/35feature was dropped for having a STD of 0.
+The model_dps:6/92feature was dropped for having a STD of 0.
+The model_dps:6/96feature was dropped for having a STD of 0.
+The model_dps:7/35feature was dropped for having a STD of 0.
+The model_dps:7/45feature was dropped for having a STD of 0.
+The model_dps:7/55feature was dropped for having a STD of 0.
+The model_dps:7/65feature was dropped for having a STD of 0.
+The model_dps:8/20feature was dropped for having a STD of 0.
+The model_dps:8/44feature was dropped for having a STD of 0.
+The model_dps:8/49feature was dropped for having a STD of 0.
+The model_dps:8/50feature was dropped for having a STD of 0.
+The model_dps:8/52feature was dropped for having a STD of 0.
+The model_dps:8/62feature was dropped for having a STD of 0.
+The model_omega:480-ifeature was dropped for having a STD of 0.
+The model_omega:480-iifeature was dropped for having a STD of 0.
+The model_omega:480-iiifeature was dropped for having a STD of 0.
+The model_universe:2203tfeature was dropped for having a STD of 0.
+The model_universe:68feature was dropped for having a STD of 0.
+The model_universe:68/05feature was dropped for having a STD of 0.
+The model_universe:68/137feature was dropped for having a STD of 0.
+The model_universe:68/37feature was dropped for having a STD of 0.
+The vendor_adviserfeature was dropped for having a STD of 0.
+The vendor_amdahlfeature was dropped for having a STD of 0.
+The vendor_apollofeature was dropped for having a STD of 0.
+The vendor_basffeature was dropped for having a STD of 0.
+The vendor_btifeature was dropped for having a STD of 0.
+The vendor_burroughsfeature was dropped for having a STD of 0.
+The vendor_c.r.dfeature was dropped for having a STD of 0.
+The vendor_cdcfeature was dropped for having a STD of 0.
+The vendor_iplfeature was dropped for having a STD of 0.
+The vendor_magnusonfeature was dropped for having a STD of 0.
+The vendor_microdatafeature was dropped for having a STD of 0.
+The model_1636-1feature was dropped for having a STD of 0.
+The model_1636-10feature was dropped for having a STD of 0.
+The model_32/60feature was dropped for having a STD of 0.
+The model_4331-11feature was dropped for having a STD of 0.
+The model_4331-2feature was dropped for having a STD of 0.
+The model_4341feature was dropped for having a STD of 0.
+The model_4341-1feature was dropped for having a STD of 0.
+The model_4341-10feature was dropped for having a STD of 0.
+The model_4341-11feature was dropped for having a STD of 0.
+The model_4341-12feature was dropped for having a STD of 0.
+The model_4341-2feature was dropped for having a STD of 0.
+The model_4341-9feature was dropped for having a STD of 0.
+The model_4361-4feature was dropped for having a STD of 0.
+The model_4361-5feature was dropped for having a STD of 0.
+The model_4381-1feature was dropped for having a STD of 0.
+The model_4381-2feature was dropped for having a STD of 0.
+The model_4436feature was dropped for having a STD of 0.
+The model_4443feature was dropped for having a STD of 0.
+The model_4445feature was dropped for having a STD of 0.
+The model_4446feature was dropped for having a STD of 0.
+The model_4460feature was dropped for having a STD of 0.
+The model_4480feature was dropped for having a STD of 0.
+The model_470v/7feature was dropped for having a STD of 0.
+The model_470v/7afeature was dropped for having a STD of 0.
+The model_470v/7bfeature was dropped for having a STD of 0.
+The model_470v/7cfeature was dropped for having a STD of 0.
+The model_470v/bfeature was dropped for having a STD of 0.
+The model_5000feature was dropped for having a STD of 0.
+The model_580-5840feature was dropped for having a STD of 0.
+The model_580-5850feature was dropped for having a STD of 0.
+The model_580-5860feature was dropped for having a STD of 0.
+The model_580-5880feature was dropped for having a STD of 0.
+The model_68/10-80feature was dropped for having a STD of 0.
+The model_7/65feature was dropped for having a STD of 0.
+The model_7/68feature was dropped for having a STD of 0.
+The model_8000feature was dropped for having a STD of 0.
+The model_8130-afeature was dropped for having a STD of 0.
+The model_8130-bfeature was dropped for having a STD of 0.
+The model_8140feature was dropped for having a STD of 0.
+The model_as/3000feature was dropped for having a STD of 0.
+The model_as/3000-nfeature was dropped for having a STD of 0.
+The model_as/5000feature was dropped for having a STD of 0.
+The model_as/5000-efeature was dropped for having a STD of 0.
+The model_as/5000-nfeature was dropped for having a STD of 0.
+The model_b1955feature was dropped for having a STD of 0.
+The model_b2900feature was dropped for having a STD of 0.
+The model_b2925feature was dropped for having a STD of 0.
+The model_b4955feature was dropped for having a STD of 0.
+The model_b5900feature was dropped for having a STD of 0.
+The model_b5920feature was dropped for having a STD of 0.
+The model_b6900feature was dropped for having a STD of 0.
+The model_b6925feature was dropped for having a STD of 0.
+The model_cyber:170/750feature was dropped for having a STD of 0.
+The model_cyber:170/760feature was dropped for having a STD of 0.
+The model_cyber:170/815feature was dropped for having a STD of 0.
+The model_cyber:170/825feature was dropped for having a STD of 0.
+The model_cyber:170/835feature was dropped for having a STD of 0.
+The model_cyber:170/845feature was dropped for having a STD of 0.
+The model_dn320feature was dropped for having a STD of 0.
+The model_dn420feature was dropped for having a STD of 0.
+The model_m80/30feature was dropped for having a STD of 0.
+The model_m80/31feature was dropped for having a STD of 0.
+The model_m80/32feature was dropped for having a STD of 0.
+The model_m80/42feature was dropped for having a STD of 0.
+The model_m80/43feature was dropped for having a STD of 0.
+The model_m80/44feature was dropped for having a STD of 0.
+The model_omega:480-ifeature was dropped for having a STD of 0.
+The model_omega:480-iifeature was dropped for having a STD of 0.
+The model_omega:480-iiifeature was dropped for having a STD of 0.
+The model_seq.ms/3200feature was dropped for having a STD of 0.
+The model_universe:2203tfeature was dropped for having a STD of 0.
+The model_universe:68feature was dropped for having a STD of 0.
+The model_universe:68/05feature was dropped for having a STD of 0.
+The model_universe:68/137feature was dropped for having a STD of 0.
+The model_universe:68/37feature was dropped for having a STD of 0.
+The vendor_adviserfeature was dropped for having a STD of 0.
+The vendor_amdahlfeature was dropped for having a STD of 0.
+The vendor_apollofeature was dropped for having a STD of 0.
+The vendor_basffeature was dropped for having a STD of 0.
+The vendor_btifeature was dropped for having a STD of 0.
+The vendor_burroughsfeature was dropped for having a STD of 0.
+The vendor_c.r.dfeature was dropped for having a STD of 0.
+The vendor_cdcfeature was dropped for having a STD of 0.
+The vendor_ncrfeature was dropped for having a STD of 0.
+The vendor_nixdorffeature was dropped for having a STD of 0.
+The vendor_perkin-elmerfeature was dropped for having a STD of 0.
+The model_1636-1feature was dropped for having a STD of 0.
+The model_1636-10feature was dropped for having a STD of 0.
+The model_32/60feature was dropped for having a STD of 0.
+The model_3205feature was dropped for having a STD of 0.
+The model_3210feature was dropped for having a STD of 0.
+The model_3230feature was dropped for having a STD of 0.
+The model_470v/7feature was dropped for having a STD of 0.
+The model_470v/7afeature was dropped for having a STD of 0.
+The model_470v/7bfeature was dropped for having a STD of 0.
+The model_470v/7cfeature was dropped for having a STD of 0.
+The model_470v/bfeature was dropped for having a STD of 0.
+The model_5000feature was dropped for having a STD of 0.
+The model_580-5840feature was dropped for having a STD of 0.
+The model_580-5850feature was dropped for having a STD of 0.
+The model_580-5860feature was dropped for having a STD of 0.
+The model_580-5880feature was dropped for having a STD of 0.
+The model_68/10-80feature was dropped for having a STD of 0.
+The model_7/65feature was dropped for having a STD of 0.
+The model_7/68feature was dropped for having a STD of 0.
+The model_8000feature was dropped for having a STD of 0.
+The model_8890/30feature was dropped for having a STD of 0.
+The model_8890/50feature was dropped for having a STD of 0.
+The model_8890/70feature was dropped for having a STD of 0.
+The model_as/6130feature was dropped for having a STD of 0.
+The model_as/6150feature was dropped for having a STD of 0.
+The model_as/6620feature was dropped for having a STD of 0.
+The model_as/6630feature was dropped for having a STD of 0.
+The model_as/6650feature was dropped for having a STD of 0.
+The model_as/7000feature was dropped for having a STD of 0.
+The model_as/7000-nfeature was dropped for having a STD of 0.
+The model_as/8040feature was dropped for having a STD of 0.
+The model_as/8050feature was dropped for having a STD of 0.
+The model_as/8060feature was dropped for having a STD of 0.
+The model_as/9000-dpcfeature was dropped for having a STD of 0.
+The model_as/9000-nfeature was dropped for having a STD of 0.
+The model_as/9040feature was dropped for having a STD of 0.
+The model_as/9060feature was dropped for having a STD of 0.
+The model_b1955feature was dropped for having a STD of 0.
+The model_b2900feature was dropped for having a STD of 0.
+The model_b2925feature was dropped for having a STD of 0.
+The model_b4955feature was dropped for having a STD of 0.
+The model_b5900feature was dropped for having a STD of 0.
+The model_b5920feature was dropped for having a STD of 0.
+The model_b6900feature was dropped for having a STD of 0.
+The model_b6925feature was dropped for having a STD of 0.
+The model_cyber:170/750feature was dropped for having a STD of 0.
+The model_cyber:170/760feature was dropped for having a STD of 0.
+The model_cyber:170/815feature was dropped for having a STD of 0.
+The model_cyber:170/825feature was dropped for having a STD of 0.
+The model_cyber:170/835feature was dropped for having a STD of 0.
+The model_cyber:170/845feature was dropped for having a STD of 0.
+The model_dn320feature was dropped for having a STD of 0.
+The model_dn420feature was dropped for having a STD of 0.
+The model_omega:480-ifeature was dropped for having a STD of 0.
+The model_omega:480-iifeature was dropped for having a STD of 0.
+The model_omega:480-iiifeature was dropped for having a STD of 0.
+The model_universe:2203tfeature was dropped for having a STD of 0.
+The model_universe:68feature was dropped for having a STD of 0.
+The model_universe:68/05feature was dropped for having a STD of 0.
+The model_universe:68/137feature was dropped for having a STD of 0.
+The model_universe:68/37feature was dropped for having a STD of 0.
+The model_v8535:iifeature was dropped for having a STD of 0.
+The model_v8545:iifeature was dropped for having a STD of 0.
+The model_v8555:iifeature was dropped for having a STD of 0.
+The model_v8565:iifeature was dropped for having a STD of 0.
+The model_v8565:ii-efeature was dropped for having a STD of 0.
+The model_v8575:iifeature was dropped for having a STD of 0.
+The model_v8585:iifeature was dropped for having a STD of 0.
+The model_v8595:iifeature was dropped for having a STD of 0.
+The model_v8635feature was dropped for having a STD of 0.
+The model_v8650feature was dropped for having a STD of 0.
+The model_v8655feature was dropped for having a STD of 0.
+The model_v8665feature was dropped for having a STD of 0.
+The model_v8670feature was dropped for having a STD of 0.
+The vendor_adviserfeature was dropped for having a STD of 0.
+The vendor_amdahlfeature was dropped for having a STD of 0.
+The vendor_apollofeature was dropped for having a STD of 0.
+The vendor_basffeature was dropped for having a STD of 0.
+The vendor_btifeature was dropped for having a STD of 0.
+The vendor_burroughsfeature was dropped for having a STD of 0.
+The vendor_c.r.dfeature was dropped for having a STD of 0.
+The vendor_cdcfeature was dropped for having a STD of 0.
+The vendor_primefeature was dropped for having a STD of 0.
+The vendor_siemensfeature was dropped for having a STD of 0.
+The vendor_sperryfeature was dropped for having a STD of 0.
+The vendor_sratusfeature was dropped for having a STD of 0.
+The vendor_wangfeature was dropped for having a STD of 0.
+The model_1100/61-h1feature was dropped for having a STD of 0.
+The model_1100/81feature was dropped for having a STD of 0.
+The model_1100/82feature was dropped for having a STD of 0.
+The model_1100/83feature was dropped for having a STD of 0.
+The model_1100/84feature was dropped for having a STD of 0.
+The model_1100/93feature was dropped for having a STD of 0.
+The model_1100/94feature was dropped for having a STD of 0.
+The model_1636-1feature was dropped for having a STD of 0.
+The model_1636-10feature was dropped for having a STD of 0.
+The model_32feature was dropped for having a STD of 0.
+The model_32/60feature was dropped for having a STD of 0.
+The model_470v/7feature was dropped for having a STD of 0.
+The model_470v/7afeature was dropped for having a STD of 0.
+The model_470v/7bfeature was dropped for having a STD of 0.
+The model_470v/7cfeature was dropped for having a STD of 0.
+The model_470v/bfeature was dropped for having a STD of 0.
+The model_50-2250feature was dropped for having a STD of 0.
+The model_50-250-iifeature was dropped for having a STD of 0.
+The model_50-550-iifeature was dropped for having a STD of 0.
+The model_50-750-iifeature was dropped for having a STD of 0.
+The model_50-850-iifeature was dropped for having a STD of 0.
+The model_5000feature was dropped for having a STD of 0.
+The model_580-5840feature was dropped for having a STD of 0.
+The model_580-5850feature was dropped for having a STD of 0.
+The model_580-5860feature was dropped for having a STD of 0.
+The model_580-5880feature was dropped for having a STD of 0.
+The model_68/10-80feature was dropped for having a STD of 0.
+The model_7.521feature was dropped for having a STD of 0.
+The model_7.531feature was dropped for having a STD of 0.
+The model_7.536feature was dropped for having a STD of 0.
+The model_7.541feature was dropped for having a STD of 0.
+The model_7.551feature was dropped for having a STD of 0.
+The model_7.561feature was dropped for having a STD of 0.
+The model_7.865-2feature was dropped for having a STD of 0.
+The model_7.870-2feature was dropped for having a STD of 0.
+The model_7.872-2feature was dropped for having a STD of 0.
+The model_7.875-2feature was dropped for having a STD of 0.
+The model_7.880-2feature was dropped for having a STD of 0.
+The model_7.881-2feature was dropped for having a STD of 0.
+The model_7/65feature was dropped for having a STD of 0.
+The model_7/68feature was dropped for having a STD of 0.
+The model_80/3feature was dropped for having a STD of 0.
+The model_80/4feature was dropped for having a STD of 0.
+The model_80/5feature was dropped for having a STD of 0.
+The model_80/6feature was dropped for having a STD of 0.
+The model_80/8feature was dropped for having a STD of 0.
+The model_8000feature was dropped for having a STD of 0.
+The model_90/80-model-3feature was dropped for having a STD of 0.
+The model_b1955feature was dropped for having a STD of 0.
+The model_b2900feature was dropped for having a STD of 0.
+The model_b2925feature was dropped for having a STD of 0.
+The model_b4955feature was dropped for having a STD of 0.
+The model_b5900feature was dropped for having a STD of 0.
+The model_b5920feature was dropped for having a STD of 0.
+The model_b6900feature was dropped for having a STD of 0.
+The model_b6925feature was dropped for having a STD of 0.
+The model_cyber:170/750feature was dropped for having a STD of 0.
+The model_cyber:170/760feature was dropped for having a STD of 0.
+The model_cyber:170/815feature was dropped for having a STD of 0.
+The model_cyber:170/825feature was dropped for having a STD of 0.
+The model_cyber:170/835feature was dropped for having a STD of 0.
+The model_cyber:170/845feature was dropped for having a STD of 0.
+The model_dn320feature was dropped for having a STD of 0.
+The model_dn420feature was dropped for having a STD of 0.
+The model_omega:480-ifeature was dropped for having a STD of 0.
+The model_omega:480-iifeature was dropped for having a STD of 0.
+The model_omega:480-iiifeature was dropped for having a STD of 0.
+The model_universe:2203tfeature was dropped for having a STD of 0.
+The model_universe:68feature was dropped for having a STD of 0.
+The model_universe:68/05feature was dropped for having a STD of 0.
+The model_universe:68/137feature was dropped for having a STD of 0.
+The model_universe:68/37feature was dropped for having a STD of 0.
+The model_vs-100feature was dropped for having a STD of 0.
+The model_vs-90feature was dropped for having a STD of 0.

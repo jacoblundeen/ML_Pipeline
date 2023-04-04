@@ -1,0 +1,29 @@
+Below are the metrics for classification of sex_I for the abalone data set.
+The Precision is 0.3393
+The Recall is 0.5
+The F1 score is 0.4043
+
+Below are the metrics for classification of class for the breast cancer data set.
+The Precision is 0.3277
+The Recall is 0.5
+The F1 score is 0.3959
+
+Below are the metrics for classification of class for the car data set.
+The Precision is 0.1749
+The Recall is 0.25
+The F1 score is 0.2058
+
+Below are the metrics for regression of area for the forest data set.
+The R² Coefficient is 0.0106255256
+Person's Correlation is 0.1030801903
+The Mean Squared Error is 0.9975845411
+
+Below are the metrics for classification of class for the house data set.
+The Precision is 0.3066
+The Recall is 0.5
+The F1 score is 0.3801
+
+Below are the metrics for regression of ERP for the machine data set.
+The R² Coefficient is 8.723e-07
+Person's Correlation is 0.0009339537
+The Mean Squared Error is 0.994047619
